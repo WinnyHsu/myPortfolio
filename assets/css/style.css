@@ -593,6 +593,12 @@ hr {
   background: #989898;
   color: #fff !important;
 }
+@media only screen and (min-width: 992px) and (max-width: 1197px) {
+  .white-btn {
+    margin-left: 300px;
+    margin-right: 10px;
+  }
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .white-btn {
@@ -2537,7 +2543,7 @@ hr {
   position: relative;
   border-style: solid;
   border-width: 1px;
-  border-top-color: #670000;
+  border-top-color: #989898;
   border-bottom-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -2793,8 +2799,8 @@ hr {
 
 /* line 810, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .section-padding30 {
-  padding-top: 195px;
-  padding-bottom: 180px;
+  padding-top: 100px;
+  padding-bottom: 10px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3316,7 +3322,7 @@ hr {
 
 /* line 80, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_headerMenu.scss */
 .header-area .menu-wrapper .main-menu ul li:hover > a {
-  color: #670000;
+  color: rgb(145, 202, 231);
 }
 
 /* line 84, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_headerMenu.scss */
@@ -3415,7 +3421,7 @@ hr {
 
 /* line 165, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_headerMenu.scss */
 .mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar {
-  background-color: #670000 !important;
+  background-color: #989898 !important;
 }
 
 /* line 169, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_headerMenu.scss */
@@ -3426,7 +3432,7 @@ hr {
 /* line 172, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_headerMenu.scss */
 .mobile_menu .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: #670000;
+  color: #989898;
 }
 
 /* line 176, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_headerMenu.scss */
@@ -3691,7 +3697,7 @@ hr {
 
 /* line 161, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
 .hero-area2 .hero-cap h2 {
-  font-size: 30px;
+  font-size: 80px;
   font-weight: 300;
   text-transform: capitalize;
 }
@@ -3707,6 +3713,27 @@ hr {
   /* line 161, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
   .hero-area2 .hero-cap h2 {
     font-size: 32px;
+  }
+}
+
+/* line 161, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
+.hero-area2 .hero-cap h3 {
+  font-size: 50px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 161, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
+  .hero-area2 .hero-cap h3 {
+    font-size: 33px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 161, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
+  .hero-area2 .hero-cap h3 {
+    font-size: 22px;
   }
 }
 
